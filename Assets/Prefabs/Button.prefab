@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 729457257439112033}
   - component: {fileID: 7477458674661155326}
   - component: {fileID: 2156588507260808273}
-  - component: {fileID: 4835837743267123462}
+  - component: {fileID: 2274219699927391961}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4835837743267123462}
+      - m_Target: {fileID: 2274219699927391961}
         m_TargetAssemblyTypeName: Cell, Assembly-CSharp
         m_MethodName: Click
         m_Mode: 1
@@ -270,7 +270,7 @@ MonoBehaviour:
           m_StringArgument: X
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4835837743267123462
+--- !u!114 &2274219699927391961
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

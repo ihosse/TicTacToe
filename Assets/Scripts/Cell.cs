@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-[RequireComponent(typeof(GameManager))]
 public class Cell : MonoBehaviour
 {
     public string Symbol 

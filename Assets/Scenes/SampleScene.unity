@@ -1104,7 +1104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a81f6858c4a07c40b496c5f07f72845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonPrefab: {fileID: 4835837743267123462, guid: eeb63dca6f80fb540814c4fcae13f84e, type: 3}
+  buttonPrefab: {fileID: 2274219699927391961, guid: eeb63dca6f80fb540814c4fcae13f84e, type: 3}
   canvas: {fileID: 1860604638}
   initialPosition: -90
   distance: 90
