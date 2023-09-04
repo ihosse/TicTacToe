@@ -1,6 +1,8 @@
 using System.Collections;
 using UnityEngine;
 
+[RequireComponent (typeof(GameBoard))]
+[RequireComponent (typeof(HUDManager))]
 public class GameManager : MonoBehaviour
 {
     public string CurrentTurnSymbol { get; private set; }
