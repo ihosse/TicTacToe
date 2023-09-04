@@ -30,6 +30,10 @@ public class Cell : MonoBehaviour
         gameManager.HumanClick(this);
     }
 
+    public bool IsValidPosition() 
+    {
+        return label.text == "" ? true : false;
+    }
     public void ChangeSymbol() 
     {
         label.text = gameManager.CurrentTurnSymbol;

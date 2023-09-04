@@ -66,7 +66,10 @@ public class GameManager : MonoBehaviour
     }
     public void HumanClick(Cell cell)
     {
-        cell.ChangeSymbol();
+        if (cell.IsValidPosition())
+            cell.ChangeSymbol();
+        else
+            return;
 
         if (VerifyDrawGame() == true)
         {
